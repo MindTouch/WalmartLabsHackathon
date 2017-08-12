@@ -1,6 +1,6 @@
 # MindTouch Touchpoints Starter Kit
 
-This is the MindTouch Touchpoints Starter Kit for the WalmartLabs / MindTouch Hackathon, August 12th 2017.
+This is the MindTouch Touchpoints Starter Kit for the @WalmartLabs / MindTouch Hackathon, August 12th 2017.
 
 [MindTouch](https://mindtouch.com/product) is a SaaS application that powers online product help manual websites and customer self-service knowledgebases for brands such as Whirlpool, Cisco, Paypal, Docker, and even Walmart! Our software helps companies author and publish product help content into mobile web ready guides and user manuals -- optimized for both SEO and user experience. This content can also be integrated and displayed in other web properties such as customer relationship management tools (Salesforce), support ticketing (Zendesk), or e-commerce. These integrations are called MindTouch Touchpoints. In the context of e-commerce, Touchpoints allow customers to get product information at the point of sale, directly within the e-commerce experience.
 
