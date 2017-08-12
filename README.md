@@ -22,6 +22,6 @@ Touchpoint codes are simple HTML markup and can be placed into any web applicati
 
 Check out some MindTouch Touchpoints in use at https://codepen.io/modethirteen/project/full/DQwWxy. See the code supporting this example at https://codepen.io/modethirteen/project/editor/DQwWxy.
 
-## Code Examples
+## Code Examples and Getting Started
 
-This repository contains receipes and examples of how to better integrate MindTouch Touchpoints with an application that you are building.
+This repository contains receipes and examples of how to better integrate MindTouch Touchpoints with an application that you are building. If you are interested in using Touchpoints in your application, speak with one of the available MindTouch tech mentors. They will be happy to set you and your team up with content and HTML embed codes from our MindTouch-powered Hackathon showcase site, [walmartlabs.mindtouch.us](https://walmartlabs.mindtouch.us).
