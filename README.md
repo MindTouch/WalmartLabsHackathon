@@ -1,4 +1,4 @@
-# MindTouch / WalmartLabs Hackathon - MindTouch Touchpoints Starter Kit
+# MindTouch Touchpoints Starter Kit
 
 This is the MindTouch Touchpoints Starter Kit for the WalmartLabs / MindTouch Hackathon, August 12th 2017.
 
