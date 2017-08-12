@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link media="screen" type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link media="screen" type="text/css" rel="stylesheet" href="style.css">
+    <title>MindTouch Touchpoints</title>
+</head>
+<body>
+    <div class="container-fluid touchpoints">
+        <div class="row">
+            <div class="col-sm-12">
+                <p></p>
+                <p>This page includes three embedded MindTouch Touchpoints, served from <a class="F1" href="https://walmartlabs.mindtouch.us">walmartlabs.mindtouch.us</a> -- a demonstration MindTouch-powered site filled with dummy content and provisioned for the August 12th, 2017 WalmartLabs / MindTouch Hackathon. Touchpoints allow customers to get product information at the point of sale, within the e-commerce experience.</p>
+                <h3>Contextual Help Touchpoint</h3>
+                <p>The <i>walmartlabs.mindtouch.us</i> link in the previous paragraph is actually wired to a <i>Contextual Help Touchpoint</i> and will open in a small contextual dialog, instead of a full page load. <a class="F1" href="https://walmartlabs.mindtouch.us/Software_Products/Monarch_Cloud/Feature_guide">This link</a> will also open in a contextual dialog but <a href="https://walmartlabs.mindtouch.us/Software_Products/Mobile" target="_blank">this link</a> is not wired to the Touchpoint, so it will not -- it will instead open a full page experience in a new tab.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Search-in-Place Touchpoint</h3>
+                <p>To the right of this paragraph is a <i>Search-in-Place</i> Touchpoint which returns product help articles based on the search queries provided. Search queries can be entered into the input field, and results will be returned from <i>walmartlabs.mindtouch.us</i>. Using a DOM event configuration process, it is configured to automatically search the <i>walmartlabs.mindtouch.us</i> site for articles that contain the phrase "content reuse". Results can be refined by drilling down into specific product categories.</p>
+                <h3>Contextual Help Button Touchpoint</h3>
+                <p>This button is configured to open a <i>walmartlabs.mindtouch.us</i> URL, like the links above, however the dialog wired to this button is configured slightly differently. Some buttons have been removed and there is a different search input hint. Touchpoints can be configured in many different ways, and even styled with CSS and LESS!</p>
+                <!-- Begin Hackathon Showcase Contextual Help Button, Type = f1-button -->
+                <!-- Generated on [8/12/2017 6:57:12 AM] by MindTouch v.17.8.10.0 -->
+                <script async="async" src="https://walmartlabs.mindtouch.us/@embed/82ccd48ac8bb91a31037842f890f2dd37b9f8fa83d6d73f18ea7ed17a40e07b9.js"></script>
+                <script type="mindtouch/embed" id="mindtouch-embed-82ccd48ac8bb91a31037842f890f2dd37b9f8fa83d6d73f18ea7ed17a40e07b9"></script>
+                <!-- End Hackathon Showcase Contextual Help Button -->
+            </div>
+            <div class="col-sm-8 search-in-place">
+                <script>
+                    document.addEventListener('mindtouch-web-widget:search:loaded', (ev) => {
+                        if(ev.data.embedId === '52033742aafac6dc2e9ba7769ff9fc67d69280ff321ab3ae23ebabf0859ecb8b') {
+                            ev.data.widget.searchQuery = 'content reuse';  
+                        }  
+                    });  
+                </script>  
+                <!-- Begin Hackathon Showcase Search-in-place, Type = search -->
+                <!-- Generated on [8/12/2017 5:40:57 AM] by MindTouch v.17.8.10.0 -->
+                <script async="async" src="https://walmartlabs.mindtouch.us/@embed/52033742aafac6dc2e9ba7769ff9fc67d69280ff321ab3ae23ebabf0859ecb8b.js"></script>
+                <script type="mindtouch/embed" id="mindtouch-embed-52033742aafac6dc2e9ba7769ff9fc67d69280ff321ab3ae23ebabf0859ecb8b"></script>
+                <!-- End Hackathon Showcase Search-in-place -->
+            </div>
+        </div>
+    </div>
+    <!-- Begin Hackathon Showcase Contextual Help, Type = f1 -->
+    <!-- Generated on [8/12/2017 6:23:53 AM] by MindTouch v.17.8.10.0 -->
+    <script async="async" src="https://walmartlabs.mindtouch.us/@embed/bf07731cc54eb1cc7c67cdddc831bb1e3a84da11dcfdb8c02de296abcfbdf734.js"></script>
+    <script type="mindtouch/embed" id="mindtouch-embed-bf07731cc54eb1cc7c67cdddc831bb1e3a84da11dcfdb8c02de296abcfbdf734"></script>
+    <!-- End Hackathon Showcase Contextual Help -->
+</body>
+</html>

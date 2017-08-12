@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p>
+        This <a id="trigger" href="#">link</a> will be hooked by the code below.
+    </p>
+    <script>
+
+        // urls can be opened in a contextual help dialog programatically
+        document.addEventListener('mindtouch-web-widget:f1:loaded', (ev) => {
+            if(ev.data.embedId === 'bf07731cc54eb1cc7c67cdddc831bb1e3a84da11dcfdb8c02de296abcfbdf734') {
+                const widget = ev.data.widget;
+                document.querySelector('#trigger').addEventListener('click', () => {
+                    widget.open('https://walmartlabs.mindtouch.us/Software_Products/Monarch_Cloud');
+                });
+            }
+        });
+    </script>
+    <!-- Begin Hackathon Showcase Contextual Help, Type = f1 -->
+    <!-- Generated on [8/12/2017 6:23:53 AM] by MindTouch v.17.8.10.0 -->
+    <script async="async" src="https://walmartlabs.mindtouch.us/@embed/bf07731cc54eb1cc7c67cdddc831bb1e3a84da11dcfdb8c02de296abcfbdf734.js"></script>
+    <script type="mindtouch/embed" id="mindtouch-embed-bf07731cc54eb1cc7c67cdddc831bb1e3a84da11dcfdb8c02de296abcfbdf734"></script>
+    <!-- End Hackathon Showcase Contextual Help -->
+    
+    <!-- links can can be hooked to open in a contextual help dialog by configuring a CSS selector (the selector is configured by a MindTouch-powered site administrator) -->
+    <p>
+        This <a class="F1" href="https://walmartlabs.mindtouch.us/Software_Products/Monarch_Cloud/zAdmin_Dashboard/Reports/Community_Scoring">link</a> will open a contextual help dialog.
+    </p>
+</body>
+  
